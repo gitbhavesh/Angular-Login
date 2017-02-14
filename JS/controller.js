@@ -22,7 +22,7 @@ app.config(function ($routeProvider) {
 
 app.controller('loginCTRL', function ($scope, $location, $rootScope) {
     $scope.submit = function () {
-        //       $rootscope.thisname = "afsa"; //anything with this rootescope remians accessible throughout the page in any controller.
+        //       $rootscope.thisname = "afsa"; //anything with this rootescope remains accessible throughout the page in any controller.
 //        $rootscope.uname = $scope.username;
 //        $rootscope.pass = $scope.password;
 
